@@ -1,0 +1,30 @@
+{
+    "name": "darkstar/router",
+    "description": "Router for DarkStar",
+    "keywords": [
+        "php",
+        "router",
+        "DarkStar",
+        "elevenone"
+    ],
+    "license": "MIT",
+    "homepage": "https://elevenone.space",
+    "authors": [
+        {
+            "name": "Zsolt Sándor",
+            "email": "hello@elevenone.space"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DarkStar\\Router\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "nikic/fast-route": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
